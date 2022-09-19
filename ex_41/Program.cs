@@ -1,4 +1,5 @@
-﻿// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+﻿// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше
+//  0 ввёл пользователь.
 
 Console.Write("Input integer numbers through the space: ");
 string[] nums = Console.ReadLine()!.Split(' ');
@@ -6,6 +7,7 @@ int M = nums.Length;
 
 int[] numbers = CreateNumbersArray(nums);
 Console.WriteLine(CountPositiveNums(numbers));
+
 
 int[] CreateNumbersArray(string[] nums)
 {
